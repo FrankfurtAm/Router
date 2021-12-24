@@ -20,7 +20,7 @@ $router->routing($_SERVER['REQUEST_URI']);
 
 # Documentation
 
-### Method Route
+### Method Routing
 
 
 ```php
