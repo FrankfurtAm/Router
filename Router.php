@@ -18,7 +18,7 @@ class Router
         Return value: null
     **/
 
-    public function route(string $route)
+    public function routing(string $route)
     {
         if(!array_key_exists($route, $this->routes)) return $this->display404();
 
