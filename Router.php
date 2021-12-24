@@ -9,6 +9,15 @@ class Router
         $this->routes = $routes;
     }
 
+    /**
+        Parameters: 
+            string - $route (Route)
+
+        Description: Routing
+
+        Return value: null
+    **/
+
     public function route(string $route)
     {
         if(!array_key_exists($route, $this->routes)) return $this->display404();
