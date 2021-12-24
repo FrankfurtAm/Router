@@ -6,6 +6,7 @@ Router is a simple tool written in php which takes the approach MVC.
 
 ### Route
 
+
 ```php
 require "Router.php";
 
@@ -24,10 +25,10 @@ $router->routing($_SERVER['REQUEST_URI']);
 
 
 ```php
-$router->routing(string $route): null
+$router->routing(string $request): null
 ```
 
-***Route***
+***Request***
 
 Request coming to the site
 
