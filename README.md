@@ -1,6 +1,6 @@
-# :scroll: Flash
+# :scroll: Router
 
-Flash is a simple tool written in php to help you install and display flash messages
+Router is a simple tool written in php which takes the approach MVC.
 
 # Usage
 
