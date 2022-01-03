@@ -13,7 +13,7 @@ class Router
         Parameters: 
             string - $route (Route)
 
-        Description: Routing
+        Description: Routing. Includes the view and model for the current route
 
         Return value: null
     **/
@@ -25,6 +25,14 @@ class Router
         require '../app/models/'.$this->routes[$route].'.model.php';
         require '../app/views/'.$this->routes[$route].'.view.php';
     }
+
+    /**
+        Parameters: 
+
+        Description: Display 404 page
+
+        Return value: null
+    **/
 
     private function display404()
     {
